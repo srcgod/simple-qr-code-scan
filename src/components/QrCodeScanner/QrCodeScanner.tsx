@@ -24,7 +24,6 @@ const QrScanner = () => {
     return (
         <div className={styles.container}>
             <Scanner 
-                allowMultiple 
                 onScan={scanHandler}
                 components={scanSettigns}
                 styles={styleSettings}
